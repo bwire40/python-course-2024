@@ -10,4 +10,4 @@ food_amount = 100
 tip_percent = 20 / 100
 tip_amount = food_amount * tip_percent
 total_amount = food_amount + tip_amount
-print(total_amount)
+print("$" + str(total_amount))
