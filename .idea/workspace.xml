@@ -38,7 +38,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Python.datatypes.executor": "Run",
     "Python.main..executor": "Debug",
-    "Python.tipCalculator.executor": "Debug",
+    "Python.tipCalculator.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true"

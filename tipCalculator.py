@@ -18,5 +18,10 @@ food_amount = int(input("Enter food amount: "))
 tip_percent = int(input("Enter the tip percentage: "))/100
 tip_amount = food_amount * tip_percent
 total_amount = food_amount + tip_amount
-print("$" + str(total_amount))
+
+# string formating
+print(f'Tip Amount: ${tip_amount}')
+print(f'Food Amount: ${food_amount}')
+print(f'Total Amount: ${total_amount}')
+
 
