@@ -25,5 +25,3 @@ first_name = input("Enter Your first name: ")
 last_name = input("Enter the last name: ")
 
 # print("Hi " + first_name + " " + last_name)
-
-
