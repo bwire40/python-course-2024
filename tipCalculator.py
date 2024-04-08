@@ -24,5 +24,5 @@ total_amount = food_amount + tip_amount
 print(f'Tip Amount: ${tip_amount}')
 print(f'Food Amount: ${food_amount}')
 print("***********************************")
-print('/n')  # new line
+print('\n')  # new line
 print(f'Total Amount: ${total_amount}')
