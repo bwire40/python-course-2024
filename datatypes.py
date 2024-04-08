@@ -29,5 +29,4 @@ num2 = float(num2)
 # simple calculator
 # num1=int(input("Num1: "))
 # num2=int(input("Num2: "))
-#
 # print(num2+num1)
