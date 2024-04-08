@@ -26,16 +26,4 @@ last_name = input("Enter the last name: ")
 
 # print("Hi " + first_name + " " + last_name)
 
-# simple calculator
-# num1=int(input("Num1: "))
-# num2=int(input("Num2: "))
-#
-# print(num2+num1)
 
-# data types
-# strings
-# int
-# float
-
-
-# string - anything in quotes
