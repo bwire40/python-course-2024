@@ -25,15 +25,25 @@
 
 score = int(input("Enter your score: "))
 
-if score >= 90:
-    print('A')
-elif score >= 80:
-    print('B')
-elif score >= 70:
-    print('C')
-elif score >= 60:
-    print('D')
-elif score < 60:
-    print('F')
-else:
-    print('Invalid Inputs')
+# if score >= 90:
+#     print('A')
+# elif score >= 80:
+#     print('B')
+# elif score >= 70:
+#     print('C')
+# elif score >= 60:
+#     print('D')
+# elif score < 60:
+#     print('F')
+# else:
+#     print('Invalid Inputs')
+
+if score >= 60 and score <= 100:  # we can do chained comparison
+    print('passed')
+
+# chained comparison
+if 60 <= score <= 100:  # pythonic
+    print('passed')
+
+if score < 60 or score > 100:
+    print('Either failed or super passed')
