@@ -1,7 +1,12 @@
-# Lists - arrays in python
-# numbers = [1, 2, 3, 4, 5, 6, 7, 8]
+# Lists - arrays in python.
+"""
+They are mutable, ordered collections of items, which means you can change the contents of
+ a list after it's created,
+ and the order of the items is maintained.
+ Lists are defined using square brackets [],
+ and items within the list are separated by commas.
+ """
 
-# print(type(numbers))  # list
 
 fruits = ['mango', 'pea', 'blueberry', 'banana', 'orange']
 
