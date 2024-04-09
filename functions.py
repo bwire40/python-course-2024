@@ -54,24 +54,30 @@
 # # print(result)
 
 # weather app with functions
-def weather(condition):
-    """
-    weather takes in 1 argument as a string
-    (expected values: 'couldy','thurnderstorm','sunny')
+# def weather(condition):
+#     """
+#     weather takes in 1 argument as a string
+#     (expected values: 'couldy','thurnderstorm','sunny')
+#
+#     returns a response instruction for the user
+#
+#     :param condition:
+#     :return:
+#     """
+#     if condition == 'rainy':
+#         response = 'Umbrella'
+#     elif condition == 'sunny':
+#         response = 'Sun glasses'
+#     else:
+#         response = 'cloudy'
+#
+#     return response
 
-    returns a response instruction for the user
 
-    :param condition:
-    :return:
-    """
-    if condition == 'rainy':
-        response = 'Umbrella'
-    elif condition == 'sunny':
-        response = 'Sun glasses'
-    else:
-        response = 'cloudy'
+# print(weather(condition='rainy'))
 
-    return response
+# type hinting  functions
+def sum(a: int, b: int) -> int:
+    return a + b
 
-
-print(weather(condition='rainy'))
+# print(sum(2, 3))

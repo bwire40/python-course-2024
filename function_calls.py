@@ -1,4 +1,4 @@
-from functions import sum_calc
+from excercises import bigger_guy
 
-result=sum_calc(1,2)
+result = bigger_guy(4, 3)
 print(result)
