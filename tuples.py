@@ -11,3 +11,4 @@ numbers = (1, 2, 3, 4)
 # print(type(numbers))  # tuple
 
 # can access items using indexes like lists
+# tuple cannot be modified
