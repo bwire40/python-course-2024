@@ -31,8 +31,8 @@
 
 
 # filter method. test elements to see whether it is true ot false
-numbers = [1, 2, 3, 4, 5, 6, 6, 7, 8, 6]
-print(list(filter(lambda number: number % 2 == 0, numbers)))
+numbers = [1, 2, 3, 4, 5, 6, 6, 7, 8, 6, 10, 12, 14]
+# print(list(filter(lambda number: number % 2 == 0, numbers)))
 # def even_number(numbers):
 #     result = []
 #     for number in numbers:
@@ -44,3 +44,9 @@ print(list(filter(lambda number: number % 2 == 0, numbers)))
 # even_number(numbers)
 
 # using filters
+
+# LIST COMPREHENSION
+
+# print([number for number in numbers if number % 2 == 0]) # filter and give even numbers
+# print([number * 2 for number in numbers])  # multiply numbers by 2
+print([number for number in numbers if number % 2 != 0])  # prints the odd numbers
