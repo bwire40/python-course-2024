@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42ed2291-34ab-4b93-af7f-7830e125e0e4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/forloops.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +40,13 @@
     "Python.boolean.executor": "Debug",
     "Python.datatypes.executor": "Run",
     "Python.dictionaries.executor": "Run",
+    "Python.forloops.executor": "Run",
     "Python.function_calls.executor": "Run",
     "Python.functions.executor": "Run",
     "Python.lamda_functions.executor": "Run",
     "Python.lists.executor": "Run",
     "Python.main..executor": "Debug",
-    "Python.sets.executor": "Debug",
+    "Python.sets.executor": "Run",
     "Python.tipCalculator.executor": "Run",
     "Python.tuples.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
