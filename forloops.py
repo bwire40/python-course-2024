@@ -17,7 +17,6 @@ my_fruit = input("Enter the fruit: ")
 #     for fruit in fruits:
 #         print(fruit)
 #     # print(i)
-
 for i in [1, 2, 3, 4, 5]:
     if my_fruit in fruits:
         my_fruit = input("Enter the fruit: ")
